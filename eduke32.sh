@@ -1,4 +1,4 @@
-folder=eduke32y
+folder=eduke32
 echo $folder
 
 # check upto date
