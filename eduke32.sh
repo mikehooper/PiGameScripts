@@ -16,7 +16,7 @@ wget http://dukeworld.com/eduke32/synthesis/latest/eduke32_src_20181118-7241.tar
 # unzip
 tar -xvf eduke32_src_20181118-7241.tar.xz -C ~/$folder --strip-components=1
 # build
-make
+make USE_OPENGL=0
 
 # get demo data
 wget http://hendricks266.duke4.net/files/3dduke13_data.7z -O 3dduke13_data.7z
