@@ -12,9 +12,9 @@ mkdir -p ~/$folder
 cd ~/$folder
 
 # download source
-wget http://dukeworld.com/eduke32/synthesis/latest/eduke32_src_20180220-6681.tar.xz -O eduke32_src_20180220-6681.tar.xz
+wget http://dukeworld.com/eduke32/synthesis/latest/eduke32_src_20181118-7241.tar.xz -O eduke32_src_20181118-7241.tar.xz
 # unzip
-tar -xvf eduke32_src_20180220-6681.tar.xz -C ~/$folder --strip-components=1
+tar -xvf eduke32_src_20181118-7241.tar.xz -C ~/$folder --strip-components=1
 # build
 make
 
