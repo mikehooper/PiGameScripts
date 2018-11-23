@@ -15,6 +15,10 @@ cd ~/$folder
 wget http://dukeworld.com/eduke32/synthesis/latest/eduke32_src_20181118-7241.tar.xz -O eduke32_src_20181118-7241.tar.xz
 # unzip
 tar -xvf eduke32_src_20181118-7241.tar.xz -C ~/$folder --strip-components=1
+
+# add 'int' declaration !!!
+sed -i -e 's/  glrendmode = (settings.polymer) ? REND_POLYMER : REND_POLYMOST;/  int glrendmode = (settings.polymer) ? REND_POLYMER : REND_POLYMOST;/g' source/duke3d/src/startgtk.game.cpp
+
 # build
 make USE_OPENGL=0
 
