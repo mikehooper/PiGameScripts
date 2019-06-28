@@ -5,6 +5,8 @@
 # https://github.com/supertuxkart/stk-code
 
 cd ~
+# install supbersion
+sudo apt install subversion
 # install prerequisites
 sudo apt-get install build-essential cmake libbluetooth-dev libcurl4-gnutls-dev libfreetype6-dev libfribidi-dev libgl1-mesa-dev libjpeg-dev libogg-dev libopenal-dev libpng-dev libvorbis-dev libxrandr-dev mesa-common-dev pkg-config zlib1g-dev
 # get source
